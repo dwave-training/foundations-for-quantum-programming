@@ -5,9 +5,9 @@ A business wants to pack a shipping container. The objective is to maximize the 
   
 - The coefficient $c_i$ represents the cost of each item.
   
-- The optimization objective is: Minimize 
+- The optimization objective is: 
 
-$$ - \sum_{i=1}^N c_i x_i $$
+$$ \min - \sum_{i=1}^N c_i x_i $$
 
 
 For this assignment, the goal is to create a list comprehension that only returns the negative of the cost for each of the selected items. Assume:
@@ -25,15 +25,15 @@ The Python file that you will work on is named ``listcomprehension_practice.py``
 
 1. Create two new lists:
 
-- Name the first list ``cost``. Add the following values, in order, to the list: 5, 10, 3, This list represents the cost of each item.
+- Name the first list ``costs``. Add the following values, in order, to the list: 5, 10, 3. This list represents the cost of each item.
 
-- Name the second list ``item``. Add the following values, in order, to the list: 0,1,0,1. This list represents if the item is packed in the shipping container. When the item is equal to 1, it is included in the container; if it is equal to 0, it is not in the container.
+- Name the second list ``items``. Add the following values, in order, to the list: 0,1,0,1. This list represents if the item is packed in the shipping container. When the value is equal to 1, it is included in the container; if it is equal to 0, it is not in the container.
   
-2. On a separate line, use a list comprehension to create a new list and name it ``value``.
+2. On a separate line, use list comprehension to create a new list and name it ``values``.
     
-3. The ``value`` list should contain $- cost_i * item_i$ of the items that are in the container. 
+3. The ``values`` list should contain $- \texttt{cost}_i * \texttt{item}_i$ if the items that are in the container. 
 Hint: Use an if statement to provide a condition.  
    
-4. Print the ``value`` list to your terminal.
+4. Print the ``values`` list to your terminal.
 
-**Note that if you add the elements in the ``value`` list, you will get the same output as the For Loop assignment!**
+**Note that if you add the elements in the ``values`` list, you will get the same output as the For Loop assignment!**
