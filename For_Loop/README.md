@@ -5,9 +5,9 @@ A business wants to pack a shipping container. The objective is to maximize the 
   
 - The coefficient $c_i$ represents the cost of each item.
   
-- The optimization objective is: Minimize 
+- The optimization objective is: 
 
-$$ - \sum_{i=1}^N c_i x_i $$
+$$ \min - \sum_{i=1}^N c_i x_i $$
 
 
 For this assignment, you will use a for loop to return the value of the optimization objective when:
