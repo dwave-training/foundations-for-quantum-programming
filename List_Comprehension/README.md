@@ -25,7 +25,7 @@ The Python file that you will work on is named ``listcomprehension_practice.py``
 
 1. Create two new lists:
 
-- Name the first list ``costs``. Add the following values, in order, to the list: 5, 10, 3. This list represents the cost of each item.
+- Name the first list ``costs``. Add the following values, in order, to the list: 5, 10, 3, 4. This list represents the cost of each item.
 
 - Name the second list ``items``. Add the following values, in order, to the list: 0,1,0,1. This list represents if the item is packed in the shipping container. When the value is equal to 1, it is included in the container; if it is equal to 0, it is not in the container.
   
