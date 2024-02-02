@@ -33,7 +33,7 @@ The Python file that you will work on is named ``forloop_practice.py``.  Open it
    
 3. On a separate line, use a for loop to calculate the following:
    
-$$ - \sum_{i=1}^4 \texttt{cost}_i * \texttt{item}_i $$
+$$ - \sum_{i=1}^4 \texttt{costs}_i * \texttt{items}_i $$
 
  and then store the sum in ``value``.
    

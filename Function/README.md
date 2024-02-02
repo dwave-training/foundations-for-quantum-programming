@@ -10,7 +10,7 @@ if c == "tofu":
 elif c == "meat":  
     print("Meat has the most calories")
 		
-elif c == "salmon" or $c$ == "white fish":  
+elif c == "salmon" or c == "white fish":  
     print("Seafood is expensive but is healthy")
 		
 else:  

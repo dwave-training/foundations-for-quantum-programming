@@ -31,7 +31,7 @@ The Python file that you will work on is named ``listcomprehension_practice.py``
   
 2. On a separate line, use list comprehension to create a new list and name it ``values``.
     
-3. The ``values`` list should contain $- \texttt{cost}_i * \texttt{item}_i$ if the items that are in the container. 
+3. The ``values`` list should contain $- \texttt{costs}_i * \texttt{items}_i$ if the items that are in the container. 
 Hint: Use an if statement to provide a condition.  
    
 4. Print the ``values`` list to your terminal.
