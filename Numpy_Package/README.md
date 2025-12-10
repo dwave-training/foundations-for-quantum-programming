@@ -62,7 +62,7 @@ The Python file you will be working with is named `numpypackage_practice.py`.  O
         **Example:** Assume the order in which each place is visited is returned as the following $x = [3 \ 0 \ 1 \ 4 \ 2]$, this means that your itinerary is: $ \text{place}_3 \to \text{place}_0 \to \text{place}_1 \to \text{place}_4 \to \text{place}_2
     $
 
-3. Compute the total distance travelled between consecutive places, excluding the return trip to the orgin place. Define this value as `sum_of_itinerary`. 
+3. Compute the total distance traveled between consecutive places, excluding the return trip to the origin place. Define this value as `sum_of_itinerary`. 
     
     **Hint:** Use the `.sum()` method.
     
