@@ -4,7 +4,7 @@
 #TODO: Create the distance array D using numpy
 
 
-#TODO: Create a 1 D array x that contains a random ordering of the 5 places
+#TODO: Create a 1D array, x, that contains a random ordering of the 5 places
 # Hint: Use a built-in NumPy function 
 
 
