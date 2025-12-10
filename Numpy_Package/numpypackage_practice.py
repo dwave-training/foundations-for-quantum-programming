@@ -17,7 +17,7 @@ itinerary = D[x[:-1], x[1:]]
 # Print the array itinerary
 print("The distances between consecutive places, excluding return trip to the origin place is:", itinerary)
 
-#TODO: Compute the total distance travelled between consecutive places, excluding return trip to the origin place. 
+#TODO: Compute the total distance traveled between consecutive places, excluding return trip to the origin place. 
 # Hint: Use the .sum() method
 
 
