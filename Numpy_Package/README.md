@@ -1,4 +1,4 @@
-# Application using NymPy Package
+# Application using NumPy Package
 An individual is planning a driving trip to visit $n$ different places exactly once. They want to drive the shortest distance possible to see all $n$ places. The objective is to minimize the distance traveled between the places and then return to the origin.
 
 
