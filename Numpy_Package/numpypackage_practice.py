@@ -5,7 +5,7 @@
 
 
 #TODO: Create a 1 D array x that contains a random ordering of the 5 places
-# Hint: Use a built-in numpy function 
+# Hint: Use a built-in NumPy function 
 
 
 # Print the array x
