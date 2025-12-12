@@ -37,7 +37,7 @@ For this assignment, the goal is to use `numpy` to create a `n × n` distance ar
 - The total number of locations to visit is $n = 5$.	
 
 - The distance, in kilometers, between locations is represented as a graph,
-where each node $p_i$ corresponds to the location of place $i$, and each edge represents the distance between two places.
+where each node $p_i$ corresponds to the location of location $i$, and each edge represents the distance between two locations.
 
 ## Exercise
 
