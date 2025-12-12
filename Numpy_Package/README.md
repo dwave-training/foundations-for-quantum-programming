@@ -66,7 +66,7 @@ The Python file you will be working with is named `numpypackage_practice.py`.  O
     
     **Hint:** Use the `.sum()` method.
     
-4. Compute the distance between the last place and the starting place, and store it in a variable named `return_to_origin`.
+4. Compute the distance between the last location and the starting location, and store it in a variable named `return_to_origin`.
    
 5. Compute the total distance traveled between places, including the return to origin, and store it as `total_distance`.
 
