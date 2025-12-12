@@ -9,7 +9,7 @@
 
 
 # Print the array x
-print("The order in which each place is visited is:", x)
+print("The order in which each location is visited is:", x)
 
 # Distance between consecutive places, excluding return trip to the origin place
 itinerary = D[x[:-1], x[1:]]
