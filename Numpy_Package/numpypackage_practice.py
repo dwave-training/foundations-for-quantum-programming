@@ -35,4 +35,4 @@ print("The distance between the last place and the starting place is:", return_t
 
 
 # Print the value of the total distance
-print("The total distance traveled between places, including the return to origin is:", total_distance)
+print("The total distance traveled between locations, including the return to origin is:", total_distance)
