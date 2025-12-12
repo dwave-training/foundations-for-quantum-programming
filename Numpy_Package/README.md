@@ -15,7 +15,7 @@ An individual is planning a driving trip to visit $n$ different locations exactl
     \min \left[
     \underbrace{(D[x[:-1], x[1:]])}_{\substack{
     \text{Distance between} \\
-    \text{consecutive places,} \\
+    \text{consecutive locations,} \\
     \text{excluding return trip} \\
     \text{ to the origin.}
     }}.sum()
