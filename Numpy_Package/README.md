@@ -34,7 +34,7 @@ An individual is planning a driving trip to visit $n$ different locations exactl
 
 For this assignment, the goal is to use `numpy` to create a `n × n` distance array and a `1-D` array with randomly ordered elements using common built-in functions. Then, compute a few values based on these arrays. Assume:
 
-- The total number of places to visit is $n = 5$.	
+- The total number of locations to visit is $n = 5$.	
 
 - The distance, in kilometers, between the places is represented as a graph,
 where each node $p_i$ corresponds to the location of place $i$, and each edge represents the distance between two places.
