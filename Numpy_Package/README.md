@@ -7,7 +7,7 @@ An individual is planning a driving trip to visit $n$ different locations exactl
 - The array, $D$, represents the travel distance between each location (in kilometers), including the starting location. It is of size `n × n` . 
 
     **Note:** 
-    - The distance from place $a$ to place $b$ is the same as the distance from place $b$ to place $a$, therefore $D[a,b]=D[b,a]$.
+    - The distance from location $a$ to location $b$ is the same as the distance from location $b$ to location $a$, therefore $D[a,b]=D[b,a]$.
     - $D[a,a]$ is the distance from place $a$ to place $a$, so $D[a,a]=0$.
 
 - The objective function is:
