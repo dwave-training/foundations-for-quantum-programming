@@ -55,7 +55,7 @@ The Python file you will be working with is named `numpypackage_practice.py`.  O
         
     - A `1-D` array, and name it `x`, that contains a random ordering of the 5 places.
     
-        This array represents the order in which each place is visited. When submitting this problem to a D-Wave solver, the solver will determine the shortest itinerary from all possible permutations. For this assignment, however, you will work with a random order. 
+        This array represents the order in which each location is visited. When submitting this problem to a D-Wave solver, the solver will determine the shortest itinerary from all possible permutations. For this assignment, however, you will work with a random order. 
         
         **Hint:** Use a built-in numpy function to generate the random order.
 
