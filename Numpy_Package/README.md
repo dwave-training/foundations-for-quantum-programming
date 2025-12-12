@@ -8,7 +8,7 @@ An individual is planning a driving trip to visit $n$ different locations exactl
 
     **Note:** 
     - The distance from location $a$ to location $b$ is the same as the distance from location $b$ to location $a$, therefore $D[a,b]=D[b,a]$.
-    - $D[a,a]$ is the distance from place $a$ to place $a$, so $D[a,a]=0$.
+    - $D[a,a]$ is the distance from location $a$ to location $a$, so $D[a,a]=0$.
 
 - The objective function is:
     $$
