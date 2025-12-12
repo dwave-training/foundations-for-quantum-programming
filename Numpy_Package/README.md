@@ -22,7 +22,7 @@ An individual is planning a driving trip to visit $n$ different locations exactl
     +
     \underbrace{D[x[-1], x[0]]}_{\substack{
     \text{Return trip to the} \\
-    \text{ origin place.}
+    \text{ origin.}
     }}
     \right]
     $$
