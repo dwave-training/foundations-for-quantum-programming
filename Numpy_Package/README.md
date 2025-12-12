@@ -1,5 +1,5 @@
 # Application using NumPy Package
-An individual is planning a driving trip to visit $n$ different places exactly once. They want to drive the shortest distance possible to see all $n$ places. The objective is to minimize the distance traveled between the places and then return to the origin.
+An individual is planning a driving trip to visit $n$ different locations exactly once. They want to drive the shortest distance possible to see all $n$ locations. The objective is to minimize the distance traveled between locations and then return to the origin.
 
 
 - The variable, $x$, represents the order of all the places that the individual must visit.
