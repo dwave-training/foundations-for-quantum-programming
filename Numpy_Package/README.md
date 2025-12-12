@@ -49,7 +49,7 @@ The Python file you will be working with is named `numpypackage_practice.py`.  O
 
     - An `n × n` distance array, and name it `D`. 
 
-        This array represents the distance, in kilometers, between the places. Fill the array using the values shown in the graph below (assume the rows and columns are labeled in the order of $p_0$, $p_1$, $p_2$, $p_3$, then $p_4$):
+        This array represents the distance, in kilometers, between locations. Fill the array using the values shown in the graph below (assume the rows and columns are labeled in the order of $p_0$, $p_1$, $p_2$, $p_3$, then $p_4$):
         
         <img src=resources/numpymap.png width="400">
         
