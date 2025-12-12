@@ -4,7 +4,7 @@ An individual is planning a driving trip to visit $n$ different locations exactl
 
 - The variable, $x$, represents the order of all locations the individual must visit.
 
-- The array, $D$, represents the travel distance between the places (in kilometers), including the starting place. It is of size `n × n` . 
+- The array, $D$, represents the travel distance between each location (in kilometers), including the starting location. It is of size `n × n` . 
 
     **Note:** 
     - The distance from place $a$ to place $b$ is the same as the distance from place $b$ to place $a$, therefore $D[a,b]=D[b,a]$.
