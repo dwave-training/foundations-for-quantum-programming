@@ -32,12 +32,7 @@ An individual is planning a driving trip to visit $n$ different locations exactl
     - The second portion, `D[x[-1], x[0]]` adds the distance between the last location and the start.
     - Taking the minimum of this expression over all possible permutations of `x` yields the shortest itinerary.
 
-For this assignment, the goal is to use `numpy` to create a `n × n` distance array and a `1-D` array with randomly ordered elements using common built-in functions. Then, compute a few values based on these arrays. Assume:
-
-- The total number of locations to visit is $n = 5$.	
-
-- The distance, in kilometers, between locations is represented as a graph,
-where each node $p_i$ corresponds to the location of location $i$, and each edge represents the distance between two locations.
+For this assignment, the goal is to use `numpy` to create a `n × n` distance array and a `1-D` array with randomly ordered elements using common built-in functions. Then, compute a few values based on these arrays. Assume the total number of locations to visit is $n = 5$.	
 
 ## Exercise
 
@@ -49,11 +44,11 @@ The Python file you will be working with is named `numpypackage_practice.py`.  O
 
     - An `n × n` distance array, and name it `D`. 
 
-        This array represents the distance, in kilometers, between locations. Fill the array using the values shown in the graph below (assume the rows and columns are labeled in the order of $p_0$, $p_1$, $p_2$, $p_3$, then $p_4$):
+        This array represents the distance, in kilometers, between locations. Populate the array with values shown in the graph below, where each node $p_i$ corresponds to location $i$, and each edge represents the distance between two locations. Assume that the rows and columns are labeled in the order of $p_0$, $p_1$, $p_2$, $p_3$, then $p_4$.
         
         <img src=resources/numpymap.png width="400">
         
-    - A `1-D` array, and name it `x`, that contains a random ordering of the 5 places.
+    - A `1-D` array, and name it `x`, that contains a random ordering of the 5 locations.
     
         This array represents the order in which each location is visited. When submitting this problem to a D-Wave solver, the solver will determine the shortest itinerary from all possible permutations. For this assignment, however, you will work with a random order. 
         
