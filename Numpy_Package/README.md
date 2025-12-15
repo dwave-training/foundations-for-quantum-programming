@@ -28,7 +28,7 @@ An individual is planning a driving trip to visit $n$ different locations exactl
     $$
 
     **Note:** 
-    - The first portion, `D[x[:-1], x[1:]]`, calculates the distance between one location to the next, excluding the return trip to the origin. Then, the sum operation `D[x[:-1], x[1:]].sum()` sums the distances.
+    - The first portion, `D[x[:-1], x[1:]]`, calculates the distance from one location to the next, excluding the return trip to the origin. Then, the sum operation `D[x[:-1], x[1:]].sum()` adds all of these distances together.
     - The second portion, `D[x[-1], x[0]]` adds the distance between the last location and the start.
     - Taking the minimum of this expression over all possible permutations of `x` yields the shortest itinerary.
 
