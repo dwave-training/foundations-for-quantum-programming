@@ -28,7 +28,7 @@ print("The total distance traveled, excluding return trip to the origin is:", su
 
 
 # Print the value of the return to origin
-print("The distance between the last location and the starting location is:", return_to_origin )
+print("The distance between the last location and the starting location is:", return_to_origin)
 
 
 #TODO: Compute the total distance traveled between locations including the return to origin.
