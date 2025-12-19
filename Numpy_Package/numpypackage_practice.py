@@ -27,7 +27,7 @@ print("The total distance traveled, excluding the return trip to the origin, is:
 #TODO: Compute the distance between the last location and the starting location.
 
 
-# Print the value of the return to origin
+# Print the value of the return trip to the origin
 print("The distance between the last location and the starting location is:", return_to_origin)
 
 
