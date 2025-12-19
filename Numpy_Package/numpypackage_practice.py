@@ -1,7 +1,7 @@
 #TODO: Import the NumPy package and abbreviate it as np
 
 
-#TODO: Create the distance array, D, using NumPy
+#TODO: Create the distance array D, using NumPy
 
 
 #TODO: Create a 1D-array x that contains a random ordering of the 5 locations.
