@@ -42,7 +42,7 @@ The Python file you will be working with is named `numpypackage_practice.py`.  O
 
 2. Using `numpy`, create the following two arrays:
 
-    - An `n × n` distance array, and name it `D`. 
+    - An `n × n` distance array named `D`. 
 
         This array represents the distance, in kilometers, between locations. Populate the array with values shown in the graph below, where each node $p_i$ corresponds to location $i$, and each edge represents the distance between two locations. Assume that the rows and columns are labeled in the order of $p_0$, $p_1$, $p_2$, $p_3$, then $p_4$.
         
