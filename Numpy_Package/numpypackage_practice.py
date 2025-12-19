@@ -21,7 +21,7 @@ print("The distances between consecutive locations, excluding the return trip to
 # Hint: Use the .sum() method
 
 
-# Print the total distance traveled, excluding return trip to the origin
+# Print the total distance traveled, excluding the return trip to the origin
 print("The total distance traveled, excluding return trip to the origin is:", sum_of_itinerary)
 
 #TODO: Compute the distance between the last location and the starting location.
