@@ -29,7 +29,7 @@ An individual is planning a driving trip to visit $n$ different locations exactl
 
     **Note:** 
     - The first portion, `D[x[:-1], x[1:]]`, calculates the distance from one location to the next, excluding the return trip to the origin. Then, the sum operation `D[x[:-1], x[1:]].sum()` adds all of these distances together.
-    - The second portion, `D[x[-1], x[0]]` adds the distance between the last location and the start.
+    - The second portion, `D[x[-1], x[0]]`, adds the distance between the last location and the start.
     - Taking the minimum of this expression over all possible permutations of `x` yields the shortest itinerary.
 
 For this assignment, the goal is to use `numpy` to create a `n × n` distance array and a `1-D` array with randomly ordered elements using common built-in functions. Then, compute a few values based on these arrays. Assume the total number of locations to visit is $n = 5$.	
