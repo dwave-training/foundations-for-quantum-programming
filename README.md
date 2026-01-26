@@ -11,4 +11,7 @@ For this assignment, open the `For_Loop` folder. Use a for loop to return the va
 For this assignment, open the `List_Comprehension` folder. Create a list comprehension that will return a list of some selected items.
 
 ## Exercise 4: Function
-For this assignment, open the `Function` folder. Define a function that includes if statements, then call it. 
+For this assignment, open the `Function` folder. Define and call a function that includes if statements. 
+
+## Exercise 5: Numpy Package
+For this assignment, open the `Numpy_Package` folder. Create arrays using `numpy`. Then, compute a few values based on these arrays.
