@@ -10,27 +10,33 @@ An individual is planning a driving trip to visit $n$ different locations exactl
     - The distance from location $a$ to location $b$ is the same as the distance from location $b$ to location $a$, therefore $D[a,b]=D[b,a]$.
     - $D[a,a]$ is the distance from location $a$ to location $a$, so $D[a,a]=0$.
 
-- The objective function is:
-    $$
-    \min \left[
-    \underbrace{(D[x[:-1], x[1:]])}_{\substack{
-    \text{Distance between} \\
-    \text{consecutive locations,} \\
-    \text{excluding the return trip} \\
-    \text{ to the origin.}
-    }}.sum()
-    +
-    \underbrace{D[x[-1], x[0]]}_{\substack{
-    \text{Return trip to the} \\
-    \text{ origin.}
-    }}
-    \right]
-    $$
+<ul>
+<li>
+The objective function is:
 
-    **Note:** 
-    - The first portion, `D[x[:-1], x[1:]]`, calculates the distance from one location to the next, excluding the return trip to the origin. Then, the sum operation `D[x[:-1], x[1:]].sum()` adds all of these distances together.
-    - The second portion, `D[x[-1], x[0]]`, adds the distance between the last location and the start.
-    - Taking the minimum of this expression over all possible permutations of `x` yields the shortest itinerary.
+```math
+\min \left[
+\underbrace{(D[x[:-1], x[1:]])}_{\substack{
+\text{Distance between} \\
+\text{consecutive locations,} \\
+\text{excluding the return trip} \\
+\text{ to the origin.}
+}}.sum()
++
+\underbrace{D[x[-1], x[0]]}_{\substack{
+\text{Return trip to the} \\
+\text{ origin.}
+}}
+\right]
+```
+
+  **Note:**
+
+  - The first portion, `D[x[:-1], x[1:]]`, calculates the distance from one location to the next, excluding the return trip to the origin. Then, the sum operation `D[x[:-1], x[1:]].sum()` adds all of these distances together.
+  - The second portion, `D[x[-1], x[0]]`, adds the distance between the last location and the start.
+  - Taking the minimum of this expression over all possible permutations of `x` yields the shortest itinerary.
+</li>
+</ul>
 
 For this assignment, the goal is to use `numpy` to create an $n × n$ distance array and a 1-D array with randomly ordered elements using common built-in functions. Then, compute a few values based on these arrays. Assume the total number of locations to visit is $n = 5$.	
 
