@@ -60,8 +60,9 @@ The Python file you will be working with is named `numpypackage_practice.py`.  O
         
         **Hint:** Use a built-in numpy function to generate the random order.
 
-        **Example:** Assume the order in which each location is visited is returned as $x = [3 \ 0 \ 1 \ 4 \ 2]$, which means that your itinerary is: $ \text{location}_3 \to \text{location}_0 \to \text{location}_1 \to \text{location}_4 \to \text{location}_2
-    $
+        **Example:** Assume the order in which each location is visited is returned as $x = [3 \ 0 \ 1 \ 4 \ 2]$, which means that your itinerary is:
+
+$$ \text{location}_3 \to \text{location}_0 \to \text{location}_1 \to \text{location}_4 \to \text{location}_2 $$
 
 3. Compute the total distance traveled between consecutive locations, excluding the return trip to the origin. Define this value as `sum_of_itinerary`. 
     
